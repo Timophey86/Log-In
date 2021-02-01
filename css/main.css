@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.logged-in {
+    color: indianred;
+}
+
+.mario-img {
+    width: 200px;
+    height: 200px;
+}
+
+.admin-page {  
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: brown;
+}
+
+.log-out {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: brown;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    width: 150px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: burlywood;
+    border: 1px solid black;
+}

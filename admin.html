@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Admin Page</title>
+  </head>
+  <body onload="renderUserTable(gUsers)">
+    <section><h3>Sort By</h3>
+        <select onchange="onSortTable()" name="sortBy">
+            <option>Name</option>
+            <option>Last Login</option>
+        </select>
+    </section>
+    <div class="table-body"></div>
+    <a class="log-out" href="index.html" onclick="onLogOut()">Log Out</a>`
+    <script src="js/service.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
